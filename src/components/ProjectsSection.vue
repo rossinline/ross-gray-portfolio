@@ -45,7 +45,7 @@ export default {
           icon: "LayoutDashboard",
           full_title: "NTU portal Redesign",
           skills: "UX/UI, Interaction Design, HTML,CSS",
-          image_screenshot: new URL('@/assets/sample-NTU-redesign2.png', import.meta.url).href,
+          image_screenshot: new URL('@/assets/NTU-redesign2.png', import.meta.url).href,
           feedback_name: "NTU Interactive Design Lecturer",
           feedback_logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPPxaif3MlUO59FMCzYmDPfJIZoDeEL5GJg&s",
           feedback: "This will be presented to the Technical staff for future use.",
