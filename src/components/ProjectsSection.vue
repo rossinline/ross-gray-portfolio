@@ -23,7 +23,7 @@ export default {
           icon: "Home",
           full_title: "Property Contract Tracking Service",
           skills: "PHP,SQL,HTML,CSS,Tailwind CSS,JavaScript, Chart JS,JSON",
-          image_screenshot: new URL('@/assets/cat.jpg', import.meta.url).href,
+          image_screenshot: "src/assets/sample-image-keydash_1.jpg", 
           feedback_name: "Conveyency Director",
           feedback_logo: "",
           feedback: "I could use this today, very real world!",
