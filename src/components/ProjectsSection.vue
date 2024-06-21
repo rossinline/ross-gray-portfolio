@@ -1,0 +1,61 @@
+<template>
+  <section id="ProjectsSection" class="py-20 px-12 lg:px-40">
+    <div class="container mx-auto">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-8 w-full text-left">Projects</h2>
+      <ProjectsGrid :projects="projects" />
+    </div>
+  </section>
+</template>
+
+<script>
+import ProjectsGrid from "./ProjectsGrid.vue";
+
+export default {
+  components: {
+    ProjectsGrid,
+  },
+  data() {
+    return {
+      projects: [
+        {
+          title: "Property Processing",
+          description: "Extensively researched, designed and developed a Full Stack Website application to track Sold Subject to Contract stages online and increase the efficiency as well as clarity of property contract stages when buying and selling. Contact me for more details",
+          icon: "Home",
+          full_title: "Property Contract Tracking Service",
+          skills: "PHP,SQL,HTML,CSS,Tailwind CSS,JavaScript, Chart JS,JSON",
+          image_screenshot: "src/assets/sample-image-keydash_3.png, src/assets/sample-image-keydash.png, src/assets/sample-image-keydash_2.png",
+          feedback_name: "Conveyency Director",
+          feedback_logo: "",
+          feedback: "I could use this today, very real world!",
+        },
+        {
+          title: "Sales Website",
+          description: "Increased Ruddocks' marketing potential by developing a frontend Informative Website to sell sustainable products.",
+          icon: "PackageOpen",
+          full_title: "Sustainability website for Cardboard products",
+          skills: "UI/UX,HTML,CSS,JavaScript",
+          image_screenshot: "",
+          feedback_name: "",
+          feedback_logo: "",
+          feedback: "Great job on the project!",
+        },
+        {
+          title: "Re-design",
+          description: "Presenting and suggesting new and modern designs for University Portal webpages to improve feedback areas for students and increase accessibility. Designs drawn and developed using design tools such as Canva.",
+          icon: "LayoutDashboard",
+          full_title: "NTU portal Redesign",
+          skills: "UX/UI, Interaction Design, HTML,CSS",
+          image_screenshot: "src/assets/NTU-resdesign1.png, src/assets/NTU-resdesign2.png, src/assets/NTU-resdesign3.png",
+          feedback_name: "NTU Interactive Design Lecturer",
+          feedback_logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPPxaif3MlUO59FMCzYmDPfJIZoDeEL5GJg&s",
+          feedback: "This will be presented to the Technical staff for future use.",
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+/* Add any additional styles if needed */
+</style>
