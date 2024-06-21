@@ -10,12 +10,12 @@
           <collapsible-widget
             title="Ruddocks Web Technician"
             description="Authored a range of projects in website development (producing informative websites) enhanced technical areas within the company. This role involved a lot of communication, team work, critical thinking and good organisational skills. I was able to provide Ruddocks with an insight into IT and software development, showing the capabilities of their software’s."
-            image="src/assets/ruddocks-logo.png"
+            image="../assetsruddocks-logo.png"
           />
           <collapsible-widget
             title="Primary Industry Research"
             description="Conducted a range of primary research across the property and legal industry through a range of methods including interviews and user testing sessions for website models gaining key positive and critical feedback for product improvement (websites)."
-            image="src/assets/interview.png"
+            image="../assets/interview.png"
           />
           <collapsible-widget
             title="Customer-service"
@@ -25,7 +25,7 @@ live, this involved long hours requiring teamwork, adaptability and initiative
 and always ensuring that the customers are comfortable with their foods
 and service.
 "
-            image="src/assets/wedding.jpg"
+            image="../assetswedding.jpg"
           />
         </div>
   
