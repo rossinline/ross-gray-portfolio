@@ -100,10 +100,9 @@ export default {
     methods: {
 
         fetchWeather() {
-            //console.log(import.meta.env.API_KEY);
-            //const apiKey = import.meta.env.API_KEY;
+            const apiKey = import.meta.env.VITE_API_KEY;
             const options = { method: 'GET', headers: { accept: 'application/json' } };
-            fetch('https://api.tomorrow.io/v4/weather/realtime?location=nottingham&apikey=GfNFPABjww910lXCPqdLzOIQMAnxBh00' /*+ apiKey*/, options)
+            fetch('https://api.tomorrow.io/v4/weather/realtime?location=nottingham&apikey=' + apiKey, options)
                 .then(response => response.json())
                 .then(data => {
                     const weatherCode = data.data.values.weatherCode;
