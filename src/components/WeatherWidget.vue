@@ -1,8 +1,7 @@
 <template>
     <div class="relative md:py-10 px-12 lg:px-40">
         <div id="weatherBox"
-            class="flex justify-center items-center m-4 mb-0 p-2 shadow-lg rounded-t-[8px] z-30 mx-auto"
-            :style="{ backgroundImage: 'url(' + currentGif + ')', backgroundSize: 'cover', backgroundPosition: 'center' }">
+            class="flex justify-center items-center m-4 mb-0 p-2 border-x rounded-t-[8px] z-30 mx-auto">
             <div class="p-2 mx-auto">
                 <h4
                     class="font-bold text-center text-sm md:text-base p-2 bg-lm-foreground dark:bg-dm-foreground bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 dark:bg-opacity-30 rounded-[8px]">
@@ -66,14 +65,14 @@ export default {
     data() {
         return {
             gifs: {
-                clear: new URL('@/assets/clear.jpg', import.meta.url).href,
-                cloudy: new URL('@/assets/cloudy.gif', import.meta.url).href,
-                fog: new URL('@/assets/fog.gif', import.meta.url).href,
-                drizzle: new URL('@/assets/drizzle.gif', import.meta.url).href,
-                rain: new URL('@/assets/rain.gif', import.meta.url).href,
-                snow: new URL('@/assets/snow.gif', import.meta.url).href,
-                freezing: new URL('@/assets/ice.gif', import.meta.url).href,
-                thunderstorm: new URL('@/assets/thunderstorm.gif', import.meta.url).href,
+                clear: 'src/assets/clear.jpg',
+                cloudy: 'src/assets/cloudy.gif',
+                fog: 'src/assets/fog.gif',
+                drizzle: 'src/assets/drizzle.gif',
+                rain: 'src/assets/rain.gif',
+                snow: 'src/assets/snow.gif',
+                freezing: 'src/assets/ice.gif',
+                thunderstorm: 'src/assets/thunderstorm.gif',
                 default: '',
             },
             icons: {
@@ -116,11 +115,6 @@ export default {
                     this.humidity = humidity;
                     this.windSpeed = windSpeed;
                     this.uvIndex = uvIndex;
-
-                    const gifGroup = this.mapWeatherCodeToGif(weatherCode);
-                    this.currentGif = this.gifs[gifGroup] || this.gifs.default;
-                    this.currentIcon = this.icons[gifGroup] || this.icons.default;
-                    this.currentWeatherGroup = gifGroup;
                 });
         },
         mapWeatherCodeToGif(weatherCode) {
