@@ -66,7 +66,7 @@ export default {
     data() {
         return {
             gifs: {
-                clear: new URL('@/assets/clear.gif', import.meta.url).href,
+                clear: 'src/assets/clear.jpg',
                 cloudy: 'src/assets/cloudy.gif',
                 fog: 'src/assets/fog.gif',
                 drizzle: 'src/assets/drizzle.gif',
