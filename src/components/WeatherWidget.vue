@@ -1,7 +1,8 @@
 <template>
     <div class="relative md:py-10 px-12 lg:px-40">
         <div id="weatherBox"
-            class="flex justify-center items-center m-4 mb-0 p-2 border-x rounded-t-[8px] z-30 mx-auto">
+            class="flex justify-center items-center m-4 mb-0 p-2 shadow-lg rounded-t-[8px] z-30 mx-auto"
+            :style="{ backgroundImage: 'url(' + currentGif + ')', backgroundSize: 'cover', backgroundPosition: 'center' }">
             <div class="p-2 mx-auto">
                 <h4
                     class="font-bold text-center text-sm md:text-base p-2 bg-lm-foreground dark:bg-dm-foreground bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 dark:bg-opacity-30 rounded-[8px]">
@@ -115,6 +116,11 @@ export default {
                     this.humidity = humidity;
                     this.windSpeed = windSpeed;
                     this.uvIndex = uvIndex;
+
+                    const gifGroup = this.mapWeatherCodeToGif(weatherCode);
+                    this.currentGif = this.gifs[gifGroup] || this.gifs.default;
+                    this.currentIcon = this.icons[gifGroup] || this.icons.default;
+                    this.currentWeatherGroup = gifGroup;
                 });
         },
         mapWeatherCodeToGif(weatherCode) {
