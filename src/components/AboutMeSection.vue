@@ -11,11 +11,11 @@
                     <!-- Content for first column goes here -->
                      <div class="flex">
                     <span class="text-2xl font-semibold pb-2 pr-5 text-lm-accent dark:text-dm-accent">Ross Gray</span>
-                    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"
+                    <a href="linkedin.com/in/ross-gray-8951b7260" target="_blank" aria-label="LinkedIn"
                         class="mr-4 text-black dark:text-white hover:text-lm-accent hover:dark:text-dm-accent">
                         <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" />
                     </a>
-                    <a href="https://github.com" target="_blank" aria-label="GitHub"
+                    <a href="https://github.com/rossinline" target="_blank" aria-label="GitHub"
                         class="text-black dark:text-white hover:text-lm-accent hover:dark:text-dm-accent">
                         <font-awesome-icon :icon="['fab', 'square-github']" size="2x" />
                     </a>

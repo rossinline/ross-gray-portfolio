@@ -46,7 +46,6 @@
               </div>
             </div>
           </div>
-          <p class="flex items-center text-sm py-8 text-gray-500 dark:text-gray-300"><Info class="w-5 h-5 mr-2" />Projects Section created with backend Laravel and Axios API</p>
         </div>
       </div>
     </div>
