@@ -4,11 +4,11 @@
             <div class="flex items-center mb-4 md:mb-0">
                 <a href="#IntroSection"><img src="../assets/RG_Logo_lm.png" alt="Logo" class="h-10 mr-12"></a>
                 <div class="flex space-x-6 mt-1">
-                    <a href="linkedin.com/in/ross-gray-8951b7260" target="_blank" aria-label="LinkedIn"
+                    <a href="https://linkedin.com/in/ross-gray-8951b7260" target="_blank" aria-label="LinkedIn"
                         class="text-white hover:text-lm-background hover:dark:text-dm-background">
                         <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" />
                     </a>
-                    <a href="https://rossinline.github.io/ross-gray-portfolio/" target="_blank" aria-label="GitHub"
+                    <a href="https://github.com/rossinline" target="_blank" aria-label="GitHub"
                         class="text-white hover:text-lm-background hover:dark:text-dm-background">
                         <font-awesome-icon :icon="['fab', 'square-github']" size="2x" />
                     </a>

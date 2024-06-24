@@ -11,7 +11,7 @@
                     <!-- Content for first column goes here -->
                      <div class="flex">
                     <span class="text-2xl font-semibold pb-2 pr-5 text-lm-accent dark:text-dm-accent">Ross Gray</span>
-                    <a href="linkedin.com/in/ross-gray-8951b7260" target="_blank" aria-label="LinkedIn"
+                    <a href="https://linkedin.com/in/ross-gray-8951b7260" target="_blank" aria-label="LinkedIn"
                         class="mr-4 text-black dark:text-white hover:text-lm-accent hover:dark:text-dm-accent">
                         <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" />
                     </a>
