@@ -37,7 +37,7 @@ export default {
           image_screenshot: "",
           feedback_name: "",
           feedback_logo: "",
-          feedback: "Great job on the project!",
+          feedback: "",
         },
         {
           title: "Re-design",
