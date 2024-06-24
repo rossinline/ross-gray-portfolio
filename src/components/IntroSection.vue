@@ -10,6 +10,7 @@
   </div>
   <!-- Right Column -->
   <div class="flex flex-1 items-center justify-center">
+    <p>test</p>
     <img
       src="../assets/Formal_PFP.jpg"
       alt="Placeholder Image"

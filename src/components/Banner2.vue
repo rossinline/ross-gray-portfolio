@@ -1,6 +1,6 @@
 <template>
     <div class="w-full bg-lm-accent dark:bg-dm-accent">
-        <h2 class="text-3xl font-semibold text-center pt-10">GitHub Data?</h2>
+        <h2 class="text-3xl font-semibold text-center pt-10"></h2>
         <div class="bg-lm-accent dark:bg-dm-accent">
             <div class="flex flex-wrap justify-center items-center py-5 mx-40">
 
