@@ -77,7 +77,6 @@
         this.selectedProject = project;
       },
       getIconComponent(iconName) {
-        console.log("Requested icon name:", iconName); // Debug statement
         const iconComponent = lucideIcons[iconName];
         if (!iconComponent) {
           console.warn(`Icon "${iconName}" not found, falling back to AlertCircle.`);
