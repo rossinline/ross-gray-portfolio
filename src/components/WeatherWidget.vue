@@ -66,14 +66,14 @@ export default {
     data() {
         return {
             gifs: {
-                clear: 'src/assets/clear.jpg',
-                cloudy: 'src/assets/cloudy.gif',
-                fog: 'src/assets/fog.gif',
-                drizzle: 'src/assets/drizzle.gif',
-                rain: 'src/assets/rain.gif',
-                snow: 'src/assets/snow.gif',
-                freezing: 'src/assets/ice.gif',
-                thunderstorm: 'src/assets/thunderstorm.gif',
+                clear: new URL('@/assets/interview.png', import.meta.url).href,
+                cloudy: new URL('@/assets/interview.png', import.meta.url).href,
+                fog: new URL('@/assets/interview.png', import.meta.url).href,
+                drizzle: new URL('@/assets/interview.png', import.meta.url).href,
+                rain: new URL('@/assets/interview.png', import.meta.url).href,
+                snow: new URL('@/assets/interview.png', import.meta.url).href,
+                freezing: new URL('@/assets/interview.png', import.meta.url).href,
+                thunderstorm: new URL('@/assets/interview.png', import.meta.url).href,
                 default: '',
             },
             icons: {
