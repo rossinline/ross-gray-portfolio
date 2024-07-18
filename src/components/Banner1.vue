@@ -55,9 +55,16 @@
                             <div class="icon-container">
                                 <font-awesome-icon
                                     class="h-8 w-8 md:h-10 md:w-10 mx-4"
+                                    :icon="['fab', 'react']"
+                                />
+                                <p class="text-center font-bold">ReactJS</p>
+                            </div>
+                            <div class="icon-container">
+                                <font-awesome-icon
+                                    class="h-8 w-8 md:h-10 md:w-10 mx-4"
                                     :icon="['fab', 'vuejs']"
                                 />
-                                <p class="text-center font-bold">Vue.js</p>
+                                <p class="text-center font-bold">VueJS</p>
                             </div>
                         </div>
                     </div>
