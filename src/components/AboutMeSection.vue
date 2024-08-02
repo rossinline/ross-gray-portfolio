@@ -61,10 +61,12 @@
                         <skill-box skill="JSON"></skill-box>
                         <skill-box skill="Node JS"></skill-box>
                         <skill-box skill="NPM"></skill-box>
+                        <skill-box skill="React JS"></skill-box>
                         <skill-box skill="Vue JS"></skill-box>
                         <skill-box skill="Vite"></skill-box>
                         <skill-box skill="Laravel"></skill-box>
                         <skill-box skill="PHP"></skill-box>
+                        <skill-box skill="Electron"></skill-box>
                         <skill-box skill="MySQL"></skill-box>
                         <skill-box skill="Figma"></skill-box>
                         <skill-box skill="Canva"></skill-box>
