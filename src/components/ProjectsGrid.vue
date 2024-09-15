@@ -42,7 +42,7 @@
             </div>
             <div class="w-full md:w-1/3 md:pl-5 md:mt-5 mt-4">
               <div class="flex flex-wrap justify-center gap-5">
-                <img v-if="selectedProject.image_screenshot && selectedProject.image_screenshot.trim() !== ''" v-for="(image, index) in selectedProject.image_screenshot.split(',')" :key="index" :src="image.trim()" alt="Screenshot" class="w-32 h-auto md:w-64 mr-0 md:mr-4 rounded-[8px] border border-lm-text dark:border-dm-text" />
+                <img v-if="selectedProject.image_screenshot && selectedProject.image_screenshot.trim() !== ''" v-for="(image, index) in selectedProject.image_screenshot.split(',')" :key="index" :src="image.trim()" alt="Screenshot" class="w-32 h-auto md:w-96 mr-0 md:mr-4 rounded-[8px] border border-lm-text dark:border-dm-text" />
               </div>
             </div>
           </div>

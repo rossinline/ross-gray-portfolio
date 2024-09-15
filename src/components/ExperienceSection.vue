@@ -40,13 +40,13 @@ export default {
     return {
       experienceItems: [
         {
-          title: "Ruddocks Web Technician",
-          description: "Authored a range of projects in website development (producing informative websites) enhanced technical areas within the company. This role involved a lot of communication, team work, critical thinking and good organisational skills. I was able to provide Ruddocks with an insight into IT and software development, showing the capabilities of their software’s.",
+          title: "Ruddocks Tech and Website Specialist",
+          description: "Authored a range of projects in website development (producing informative websites), enhancing technical areas within the company and optimising sales processes. This role involved a lot of communication, team work, critical thinking and organisational skills. Providing Ruddocks with an insight into IT/web and showing the capabilities of their existing softwares.",
           image: new URL('@/assets/ruddocks-logo.png', import.meta.url).href,
         },
         {
           title: "Primary Industry Research",
-          description: "Conducted a range of primary research across the property and legal industry through a range of methods including interviews and user testing sessions for website models gaining key positive and critical feedback for product improvement (websites).",
+          description: "Conducted a range of primary research across the property and legal industry through a range of methods including interviews and user testing sessions for website models gaining key positive and critical feedback for a full stack web product.",
           image: new URL('@/assets/interview.png', import.meta.url).href,
         },
         {
