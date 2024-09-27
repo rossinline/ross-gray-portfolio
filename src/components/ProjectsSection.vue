@@ -19,7 +19,7 @@ export default {
       projects: [
       {
           title: "Devectus",
-          description: "An Offline Component library app that allows developers to save code snippets and components on the local drive. No complexities, a simple paste of code saved for later use.",
+          description: "An Open Source - Offline Component library app that allows developers to save code snippets and components on the local drive. No complexities, a simple paste of code saved for later use. Check out our Public GitHub Repository <a href='https://github.com/rossinline/Devectus'>here</a>",
           icon: "FolderCode",
           full_title: "Devectus (Alpha)",
           skills: "UX/UI, Electron, HTML, CSS, JavaScript, ReactJS, TailwindCSS, SQLite, Webpack, Babel",
