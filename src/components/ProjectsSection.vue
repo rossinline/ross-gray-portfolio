@@ -17,6 +17,17 @@ export default {
   data() {
     return {
       projects: [
+      {
+          title: "Devectus",
+          description: "An Offline Component library app that allows developers to save code snippets and components on the local drive. No complexities, a simple paste of code saved for later use.",
+          icon: "FolderCode",
+          full_title: "Devectus (Alpha)",
+          skills: "UX/UI, Electron, HTML, CSS, JavaScript, ReactJS, TailwindCSS, SQLite, Webpack, Babel",
+          image_screenshot: new URL('@/assets/Devectus_Screenshot.png', import.meta.url).href,
+          feedback_name: "",
+          feedback_logo: "",
+          feedback: "",
+        },
         {
           title: "Property Processing",
           description: "Extensively researched, designed and developed a Full Stack Website application to track Sold Subject to Contract stages online and increase the efficiency as well as clarity of property contract stages when buying and selling. Contact me for more details",

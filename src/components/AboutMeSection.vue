@@ -31,7 +31,7 @@
                     </div>
                     <!-- Summary of me -->
                     <h4 class="text-lg py-2">Summary -</h4>
-                    <p class="text-sm">An Adaptive, problem solving individual with substantial experience in website development for informative websites, customer service, service organisation, and customer care. Very meticulous when ensuring all products and services are provided for customers in all past work experiences. Also experienced in many computing areas.</p>
+                    <p class="text-sm">Ahighly creative, adaptive and problem solving full stack website developer proven to develop a range of web applications and systems to increase sales, marketing, and productivity. Very meticulous and open minded to learn all that is required to innovate and optimise.</p>
                     <h4 class="text-lg py-2">Skills -</h4>
                     <h5 class="ml-2 pb-2">Non Technical / Soft Skills -</h5>
                     <!-- Skill boxes container -->

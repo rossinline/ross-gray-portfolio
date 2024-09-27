@@ -5,7 +5,7 @@
     <div>
       <h1 class="text-3xl md:text-6xl lg:text-8xl font-bold mb-1">Ross Gray</h1>
       <h2 class="text-md md:text-3xl lg:text-5xl font-bold mb-1">Web Developer</h2>
-      <p class="text-sm md:text-lg">MBCs</p>
+      <p class="text-sm md:text-lg">MBCs | Computing and Technology Graduate (BCs 2:1)</p>
     </div>
   </div>
   <!-- Right Column -->
