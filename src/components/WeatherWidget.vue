@@ -1,5 +1,5 @@
 <template>
-    <div class="relative md:py-10 px-12 lg:px-40">
+    <div class="relative md:py-10 px-8 lg:px-40">
         <div id="weatherBox"
             class="flex justify-center items-center m-4 mb-0 p-2 shadow-lg rounded-t-[8px] z-30 mx-auto"
             :style="{ backgroundImage: 'url(' + currentGif + ')', backgroundSize: 'cover', backgroundPosition: 'center' }">
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div
-            class="flex items-center bg-lm-foreground dark:bg-dm-foreground text-sm text-gray-500 dark:text-gray-300 p-1 px-2 rounded-b-[8px] mx-auto">
+            class="flex items-center bg-lm-foreground dark:bg-dm-foreground text-xs md:text-sm text-gray-500 dark:text-gray-300 p-1 px-2 rounded-b-[8px] mx-auto">
             <Info class="w-5 h-5 mr-2" />This Weather Dashboard was made with a REST JavaScript API (Tomorrow.io data)
         </div>
     </div>

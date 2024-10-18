@@ -8,8 +8,8 @@
               class="w-full h-auto p-2 bg-lm-foreground dark:bg-dm-foreground rounded-[8px] shadow-md hover:bg-lm-background hover:dark:bg-dm-background focus:bg-lm-background focus:dark:bg-dm-background focus:border-lm-accent focus:dark:border-dm-accent transition ease-in-out delay-100 md:hover:-translate-y-1 md:hover:scale-105 duration-300">
               <div class="flex items-center">
                 <component :is="getIconComponent(project.icon)"
-                  class="w-16 h-16 sm:w-6 sm:h-6 md:w-10 md:h-10 mr-4" />
-                <div class="text-sm break-words">
+                  class="w-16 h-16 sm:w-5 sm:h-5 md:w-10 md:h-10 mr-4" />
+                <div class="text-sm font-semibold break-words">
                   {{ project.title }}
                 </div>
               </div>

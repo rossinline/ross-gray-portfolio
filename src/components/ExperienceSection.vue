@@ -1,5 +1,5 @@
 <template>
-  <section id="ExperienceSection" class="py-20 px-12 lg:px-40">
+  <section id="ExperienceSection" class="py-20 px-8 lg:px-40">
     <div class="container mx-auto">
       <h2 class="text-2xl md:text-3xl font-semibold mb-8 w-full text-left">
         Experience
