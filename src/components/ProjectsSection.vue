@@ -28,7 +28,7 @@ export default {
           feedback_logo: "",
           feedback: "",
         },
-        {
+        /*{
           title: "Property Processing",
           description: "Extensively researched, designed and developed a Full Stack Website application to track Sold Subject to Contract stages online and increase the efficiency as well as clarity of property contract stages when buying and selling. Contact me for more details",
           icon: "Home",
@@ -38,7 +38,7 @@ export default {
           feedback_name: "Conveyency Director",
           feedback_logo: "",
           feedback: "I could use this today, very real world!",
-        },
+        },*/
         {
           title: "Sales Website",
           description: "Increased Ruddocks' marketing potential by developing a frontend Informative Website to sell sustainable products.",
