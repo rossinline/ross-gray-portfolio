@@ -15,13 +15,6 @@
           :image="item.image"
         />
       </div>
-
-      <div class="flex justify-center items-center p-10">
-        <button class="text-center animate-bounce cursor-auto w-20 h-20">
-          <p class="p-2 font-bold text-sm md:text-md">Projects</p>
-          <ChevronDown class="w-6 h-6 md:w-8 md:h-8 mx-auto" />
-        </button>
-      </div>
     </div>
   </section>
 </template>

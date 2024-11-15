@@ -65,7 +65,7 @@ export default {
           external_link: "",
         },
         {
-          title: "Fish Life Mobile",
+          title: "Mobile App",
           description: "Created a learning mobile app that teaches users about the current ocean crysis through story telling and interactive quizzes.",
           icon: "TabletSmartphone",
           full_title: "UN Climate Mobile App",
