@@ -53,7 +53,7 @@
                 <h4 v-if="selectedProject.feedback_name && selectedProject.feedback_name.trim() !== ''"
                   class="mr-4 text-sm font-semibold">{{ selectedProject.feedback_name }} -</h4>
                 <p v-if="selectedProject.feedback && selectedProject.feedback.trim() !== ''"
-                  class="text-sm md:pt-2 3xl:pt-0">"{{ selectedProject.feedback }}"</p>
+                  class="text-sm pt-2 sm:pt-0 3xl:pt-0">"{{ selectedProject.feedback }}"</p>
               </div>
 
             </div>
@@ -65,7 +65,7 @@
             <div class="absolute inset-0 -top-1 -left-52 z-0 h-56">
               <img v-if="selectedProject.image_screenshot && selectedProject.image_screenshot.trim() !== ''"
                 v-for="(image, index) in selectedProject.image_screenshot.split(',')" :key="index" :src="image.trim()"
-                alt="Screenshot" class="w-auto h-full object-cover opacity-30" />
+                alt="Screenshot" class="w-auto h-full object-cover opacity-50" />
             </div>
           </div>
         </div>
